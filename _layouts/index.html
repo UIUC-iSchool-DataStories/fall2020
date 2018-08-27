@@ -10,6 +10,7 @@ layout: default
 <h2>Weekly Lectures and Materials</h2>
 
 <ul>
+<li><a href="{{'syllabus.html' | relative_url }}">Syllabus</a></li>
 {% assign sorted_pages = site.html_pages | sort:"path" %}
 {% for f in sorted_pages %}
 {% if f.dir contains "week" and f.path contains "index" %}
