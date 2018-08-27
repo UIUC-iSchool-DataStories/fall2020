@@ -2,91 +2,265 @@
 title: Lecture 1
 layout: lecture
 ---
-# Data Visualization
+<!-- .slide: class="titleslide" -->
+
+# Data Storytelling
+<div style="height: 6.0em;"></div>
 ## Matthew Turk
-## Spring 2018
+## Fall 2018
 
 ---
+<!-- .slide: class="vertical_center" -->
+---
+
 # Basics
 
-1PM-3:50PM Fridays, LIS-126
+1PM-3:50PM Mondays, LIS-46
 
-Matthew Turk - mjturk@illinois.edu
+Kate McDowell - `kmcdowel@illinois.edu`
+
+Matthew Turk - `mjturk@illinois.edu`
+
 Office Hours: Wednesday 2-4, LIS 222
 
-TA Jarai Carter - carter31@illinois.edu
+TA Kangjae Lee - `klee171@illinois.edu>`
 
-http://github.com/UIUC-iSchool-DataViz/
+`https://github.com/UIUC-iSchool-DataStories/fall2018/`
+
+`https://uiuc-ischool-datastories.github.io/fall2018/`
+
+---
+
+## This Class
+
+Participation in this class is absolutely key.
+
+You will be tasked with talking, creating, sharing, and discussing.
+
+---
+
+## Grading - Assignments
+
+You will have four assignments:
+
+ 1. Social Justice Storytelling: Live
+ 2. Social Justice Storytelling: Recorded (4cr only)
+ 3. Data Storytelling: Live
+ 4. Final Data Story: Recorded or Web-Based
+
+---
+
+## Learning Objectives
+
+* Understand data as a source of story
+* Understand and analyze basic data sets
+* Understand storytelling concepts
+* Utilize data visualization toolkits at a basic level
+* Tell well-evidenced stories
+
+---
+
+## Plagiarism
+
+Academic integrity is vital to this course.  The _stories_ you tell and the
+_visualizations_ you create must be your own, both in actuality and in
+character.
+
+However, there are many reasons to seek out assistance and help. We insist that
+you cite every fragment of code that you utilize online.
+
+---
+
+## Inclusivity
+
+"We support diversity of worldviews, histories, and cultural knowledge across a
+range of social groups including race, ethnicity, gender identity, sexual
+orientation, abilities, economic class, religion, and their intersections."
+
+Please note that this is not a comprehensive list of groups or characteristics
+we respect and value.
+
+---
+
+<iframe width="1024" height="576"
+src="https://www.youtube.com/embed/In72QAQJ1tY?rel=0" frameborder="0"
+allow="encrypted-media" allowfullscreen></iframe>
+
+---
+
+## Introduction to Each Other
+
+Tell us about your name.  Does it mean something?  Where does it come from?
+
+(We need a designated recorder!)
+
+---
+
+## Names - Visualization
+
+How do we tell a visual story about this?
+
+We will break into groups and share this.
+
+---
+
+## Our Tools
+
+ * Python, with some Javascript along the way
+ * Jupyterhub (possibly) and Google Colab
+ * Once in a while some git, and GitHub
+ * Data!
+
+---
+
+## Visualization Contexts
+
+ * Visualization just for you
+ * Visualization for a peer
+ * Visualization for everybody
+
+---
+
+<!-- .slide: data-background-image="images/viz_types.svg" data-background-size="contain" -->
 
 
 ---
-# Timed activity!
+
+We tell lies to visualize, but we _must_ be honest.
 
 ---
-Each of you has a notecard with a number.
 
-On the back of that notecard:
-
-* What are the most memorable movies you saw over the last year?
-* Do you prefer cats or dogs?
-* How would you quantify your experience in visualization?
-* What would you guess the square footage of this building is?
-* People per row in this class.
+<!-- .slide: data-background-image="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg/1024px-Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg" data-background-size="contain" -->
 
 ---
-Break into groups based on your numbers, and visualize the results by whatever method you choose: by hand, by computer, or otherwise.
 
-Affix to or inscribe upon your sheet of paper.
+## Data "Framing"
 
----
-# Syllabus
-
-* Week 1 (Sept 1): Introduction, syllabus, examples, and some basics
-* Week 2 (Sept 8): Operational palette, structured python, and files
-* Week 3 (Sept 15): Quantitative plots, plot components
-* Week 4 (Sept 22): Histograms and distributions
-* Week 5 (Sept 29): R and ggplot
-* Week 6 (Oct 6): Images: color, colormaps
-* Week 7 (Oct 13): Comparisons between datasets
-* Week 8 (Oct 20): Comparisons between different datasets
-* Week 9 (Oct 27): Network visualization
-* Week 10 (Nov 3): Principles of interactive visualization
-* Week 11 (Nov 10): Interactive visualization with Python
-* Week 12 (Nov 17): Scientific visualization
-* Week 13 (Dec 1): Advanced topics
-* Week 14 (Dec 8): Group presentations
+ * Collection
+ * Organization
+ * Reduction
+ * Representation
 
 ---
-# Overview - Themes
-1. What are the components of an effective visualization of quantitative data?
-1. What tools and ecosystems are available for visualizing data?
-1. What systems can be put in place to generate visualizations rapidly and with high-fidelity representation?
 
+<!-- .slide: data-background-image="images/rome_copenhagen.png" data-background-size="contain" -->
 
----
-# Overview - Goals
-
-* Students will be able to communicate information and data through visual representation
-* Students will be able to examine a visualization and understand how it can be improved upon
-* Students will have facility with the commonplace tools used for visualization, and a deeper understanding of where those tools have shortcomings
+notes:
+https://twitter.com/mattyglesias/status/1034097208885501954
 
 ---
-# Initial steps with Viz
 
-The first thing we're going to do is set up our visualization environment.
+<!-- .slide: data-background-image="images/hearts_battery.svg" data-background-size="contain" -->
 
-We'll import a few things and go from there.
+---
 
+<!-- .slide: data-background-image="images/battery.svg" data-background-size="contain" -->
 
-```python
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-```
+<div style="height: 10em;"></div>
 
-Now we have a few things imported, so let's check out where to go from here.
+ 1. Sensors read the current "fill" of the battery
+    * Analog / digital conversion
+    * Normalized with respect to expected "full"
+ 1. This is then scaled to a percentage
+ 1. The battery image is filled from left to right
+ 1. The image is then rasterized and displayed
 
+---
 
-```python
-pd.read_csv("hello.csv")
-```
+<!-- .slide: data-background-image="images/hearts_bw.svg" data-background-size="contain" -->
+
+ * Some fixed maximum amount of damage
+ * Each time damage is taken, decrement
+ * Each time damage is reversed, increment
+ * Display number of hearts as appropriate
+
+---
+
+2 out of 3 "points"
+
+<!-- .slide: data-background-image="images/hearts_color.svg" data-background-size="contain" -->
+
+---
+
+<!-- .slide: data-background-image="images/hearts_color.svg" data-background-size="contain" -->
+
+![](images/doom_status.png)
+
+---
+
+<!-- .slide: data-background-image="images/stitch_bg.png" data-background-size="contain"-->
+
+---
+
+<!-- .slide: data-background-image="images/stitch_nobg.png" data-background-size="contain"-->
+
+---
+
+<!-- .slide: data-background-image="images/stitch_nobg_tilted.png" data-background-size="contain"-->
+
+---
+
+## Honesty
+
+Our choices must be:
+
+ * Deliberate
+ * Informed
+ * Motivated
+ * Justifiable
+
+---
+
+## Election Maps
+
+Mark Newman of the University of Michigan has created visualizations of the
+election maps from several of the most recent elections.  For more information
+and context, see his page http://www-personal.umich.edu/~mejn/election/2008/ .
+
+ * [Map 1](http://www-personal.umich.edu/~mejn/election/2008/statemapredbluer1024.png)
+ * [Map 2](http://www-personal.umich.edu/~mejn/election/2008/statepopredblue1024.png)
+ * [Map 3](http://www-personal.umich.edu/~mejn/election/2008/countymapredbluer1024.png)
+ * [Map 4](http://www-personal.umich.edu/~mejn/election/2008/countymappurpler1024.png)
+ * [Map 5](http://www-personal.umich.edu/~mejn/election/2008/countycartpurple1024.png)
+
+---
+
+## Three Case Studies
+
+We'll break up into groups.
+
+1. Who is this visualization designed for?  Self, peer, or other?  Was it
+   successful?
+2. How do you think this data was collected and processed, and how does this
+   reflect the story the visualizer wants to tell?
+3. Where were choices made in representation of the data, and how do these
+   choices influence your perception of it?
+4. Can you think of an alternate presentation?
+
+---
+
+<iframe src="https://player.vimeo.com/video/239582792" width="1024" height="576"
+frameborder="0" webkitallowfullscreen mozallowfullscreen
+allowfullscreen></iframe>
+
+---
+
+<iframe width="1024" height="576"
+src="https://www.youtube.com/embed/D-uBv6jB7r0" frameborder="0"
+allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+---
+
+`scienceofhiv.org`
+
+---
+
+## Sign Up for Rehearsal Groups
+
+---
+
+## Let's Learn Some Coding!
+
+1. Visit [colab.research.google.com](https://colab.research.google.com)
+1. Sign in
+1. Let's try out some data viz
