@@ -87,6 +87,7 @@ Revealing information through indirect information.  Patterns or information
 casting "shadows" that reveal the original.
 
  <!-- .slide: data-background-image="images/confidante2.svg" data-background-size="contain" --> 
+
 ---
 
 ## Data Characters: Dynamic (the Wildcard!)
