@@ -202,8 +202,8 @@ Remember: Time is but one of our dimensions.
  * What's the setting of the story?
  * What is the plot of this data story?
 
-[https://gizmodo.com/observatories-across-the-world-announce-groundbreaking-1819500578](Link1) and 
-[https://gizmodo.com/let-s-break-down-what-that-monumental-neutron-star-coll-1819613829](Link2)
+[Link 1](https://gizmodo.com/observatories-across-the-world-announce-groundbreaking-1819500578) and 
+[Link 2](https://gizmodo.com/let-s-break-down-what-that-monumental-neutron-star-coll-1819613829)
 
 ---
 
