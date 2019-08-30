@@ -7,7 +7,7 @@ layout: lecture
 # Data Storytelling
 <div style="height: 6.0em;"></div>
 ## Matthew Turk
-## Fall 2018
+## Fall 2019
 
 ---
 <!-- .slide: class="vertical_center" -->
@@ -15,19 +15,17 @@ layout: lecture
 
 # Basics
 
-1PM-3:50PM Mondays, LIS-46
+1PM-3:50PM Fridays, LIS-126
 
 Kate McDowell - `kmcdowel@illinois.edu`
 
 Matthew Turk - `mjturk@illinois.edu`
 
-Office Hours: Wednesday 2-4, LIS 222
+Office Hours: Tuesday 11-1, 505 E Green
 
-TA Kangjae Lee - `klee171@illinois.edu>`
+`https://github.com/UIUC-iSchool-DataStories/fall2019/`
 
-`https://github.com/UIUC-iSchool-DataStories/fall2018/`
-
-`https://uiuc-ischool-datastories.github.io/fall2018/`
+`https://uiuc-ischool-datastories.github.io/fall2019/`
 
 ---
 
@@ -44,7 +42,7 @@ You will be tasked with talking, creating, sharing, and discussing.
 You will have four assignments:
 
  1. Social Justice Storytelling: Live
- 2. Social Justice Storytelling: Recorded (4cr only)
+ 2. Social Justice Storytelling: Recorded
  3. Data Storytelling: Live
  4. Final Data Story: Recorded or Web-Based
 
@@ -140,13 +138,6 @@ We tell lies to visualize, but we _must_ be honest.
  * Organization
  * Reduction
  * Representation
-
----
-
-<!-- .slide: data-background-image="images/rome_copenhagen.png" data-background-size="contain" -->
-
-notes:
-https://twitter.com/mattyglesias/status/1034097208885501954
 
 ---
 
