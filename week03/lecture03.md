@@ -308,8 +308,7 @@ Discuss: what are the principal differences in how you use and interact with Exc
 # ObservableHQ
 
  * [observablehq.com](https://beta.observablehq.com/)
- * [A Better
-   Way](https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0)
+ * [A Better Way](https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0)
 
 --- 
 
