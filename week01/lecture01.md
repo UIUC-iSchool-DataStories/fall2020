@@ -58,7 +58,7 @@ We ask that you:
 
 ## Grading - Assignments
 
-You will have four assignments:
+You will have five assignments:
 
  1. Tweet Critique
  2. Data Story Idea: Social Problem or Social Justice (1 page)
