@@ -5,35 +5,54 @@ layout: lecture
 <!-- .slide: class="titleslide" -->
 
 # Data Storytelling
-<div style="height: 6.0em;"></div>
+
 ## Matthew Turk
-## Fall 2019
+## Fall 2020
 
 ---
-<!-- .slide: class="vertical_center" -->
+
+## Land Acknowledgment
+
+Please see the Land Acknowledgment in the Syllabus.
+
+[More information can be found on the Chancellor's
+Website.](https://chancellor.illinois.edu/land_acknowledgement.html)
+
 ---
 
 # Basics
 
-1PM-3:50PM Fridays, LIS-126
+2:00-3:20PM Tuesdays and Thursdays
 
 Kate McDowell - `kmcdowel@illinois.edu`
 
 Matthew Turk - `mjturk@illinois.edu`
 
-Office Hours: Tuesday 11-1, 505 E Green
+Office Hours: By Appointment
 
-`https://github.com/UIUC-iSchool-DataStories/fall2019/`
+`https://github.com/UIUC-iSchool-DataStories/fall2020/`
 
-`https://uiuc-ischool-datastories.github.io/fall2019/`
+`https://uiuc-ischool-datastories.github.io/fall2020/`
 
 ---
 
 ## This Class
 
-Participation in this class is absolutely key.
+Participation in this class is absolutely key.<!-- .element: class="fragment" -->
 
-You will be tasked with talking, creating, sharing, and discussing.
+You will be tasked with talking, creating, sharing, and discussing.<!-- .element: class="fragment" -->
+
+This may be tricky.  It's our first time teaching this course over Zoom.<!-- .element: class="fragment" -->
+
+---
+
+## Participation Guidelines
+
+We ask that you:
+
+ * Utilize the Zoom features for "hand-raising"
+ * Ask any questions that can be answered over chat using Zoom chat
+ * Use Moodle resources for communication outside of class
 
 ---
 
@@ -41,20 +60,24 @@ You will be tasked with talking, creating, sharing, and discussing.
 
 You will have four assignments:
 
- 1. Social Justice Storytelling: Live
- 2. Social Justice Storytelling: Recorded
- 3. Data Storytelling: Live
- 4. Final Data Story: Recorded or Web-Based
+ 1. Tweet Critique
+ 2. Data Story Idea: Social Problem or Social Justice (1 page)
+ 3. Data Assignment
+ 4. Recorded Data Story (3-5 minutes)
+ 5. Final data story (3 minutes in class, students sign up during last 5 weeks of class)
 
 ---
 
 ## Learning Objectives
 
-* Understand data as a source of story
-* Understand and analyze basic data sets
-* Understand storytelling concepts
-* Utilize data visualization toolkits at a basic level
-* Tell well-evidenced stories
+ * Understand data as a source of story
+ * Understand and analyze basic data sets
+ * Understand storytelling concepts
+ * Utilize data visualization toolkits at a basic level
+ * Make logical and persuasive arguments
+ * Create clear, concise, data-informed messages
+ * Tell well-evidenced stories
+
 
 ---
 
@@ -88,24 +111,31 @@ allow="encrypted-media" allowfullscreen></iframe>
 
 ## Introduction to Each Other
 
-Tell us about your name.  Does it mean something?  Where does it come from?
+We're going to break up into breakout rooms, where you'll chat with each other about your *name*.
 
-(We need a designated recorder!)
+Talk a little about your name.  Does it mean something?  Where does it come from?
+
+Afterward, we'll reconvene, allow for a few people to share a bit, and then we will break back out.
 
 ---
 
 ## Names - Visualization
 
-How do we tell a visual story about this?
+In your new breakout rooms, we want you to think about telling a story about names.
 
-We will break into groups and share this.
+ * How do we tell a visual story about this?
+ * What information -- *data* -- can we obtain about names?
+
+We will break *back* into groups and share this, and sketch out a handful of ideas.
+
+https://bit.ly/3aXN8Ex
 
 ---
 
 ## Our Tools
 
  * Python, with some Javascript along the way
- * Jupyterhub (possibly) and Google Colab
+ * Jupyterhub (possibly) and [Observable](https://observablehq.com/)
  * Once in a while some git, and GitHub
  * Data!
 
@@ -147,7 +177,7 @@ We tell lies to visualize, but we _must_ be honest.
 
 <!-- .slide: data-background-image="images/battery.svg" data-background-size="contain" -->
 
-<div style="height: 10em;"></div>
+<div style="height: 15em;"></div>
 
  1. Sensors read the current "fill" of the battery
     * Analog / digital conversion
@@ -242,16 +272,5 @@ allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ---
 
-`scienceofhiv.org`
+[`scienceofhiv.org`](https://scienceofhiv.org/)
 
----
-
-## Sign Up for Rehearsal Groups
-
----
-
-## Let's Learn Some Coding!
-
-1. Visit [colab.research.google.com](https://colab.research.google.com)
-1. Sign in
-1. Let's try out some data viz
