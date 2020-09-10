@@ -6,7 +6,7 @@ layout: lecture
 
 # Data Character in Story
 
-<div style="height: 6.0em;"></div>
+<div style="height: 2.0em;"></div>
 
 ## Matthew Turk
 ## Fall 2019
