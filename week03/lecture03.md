@@ -7,7 +7,7 @@ layout: lecture
 # Data Character in Story
 
 ## Matthew Turk
-## Fall 2019
+## Fall 2020
 
 ---
 
