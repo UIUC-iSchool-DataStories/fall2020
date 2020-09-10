@@ -1,10 +1,10 @@
 ---
-title: Lecture 3
+title: Data Character in Story
 layout: lecture
 ---
 <!-- .slide: class="titleslide" -->
 
-# Data Storytelling
+# Data Character in Story
 
 <div style="height: 6.0em;"></div>
 
@@ -16,11 +16,8 @@ layout: lecture
 # Today
 
 1. Storytelling Components
-2. Review of some coding for visualization
-3. Introduction of data sources and getting data in
-4. Exploratory analysis
-5. Data sources
-6. Idyll, Observeable and Colaboratory
+2. Case studies
+3. Data sources
 
 ---
 
@@ -189,7 +186,7 @@ This is the only part we really control.
 
 ## Data Setting: Where does our story take place?
 
-Here, it takes place on a couple axes, it is marked by points, they don’t seem
+Here, it takes place on a couple axes, it is marked by points, they don't seem
 to have colors, and the scales and intra-data relationships are defined
 according to our expectations.
 <!-- .element: class="left_abs" style="width: 50%"-->
@@ -200,7 +197,7 @@ according to our expectations.
 
 ## Data Setting: Where does our story take place?
 
-Now we’ve added another property to the display. Maybe we’ve  changed our
+Now we've added another property to the display. Maybe we've  changed our
 scales and annotated it with some markers.
 <!-- .element: class="left_abs" style="width: 50%"-->
 
@@ -241,6 +238,40 @@ Remember: Time is but one of our dimensions.
 
 ---
 
+# What can we learn about the data?
+
+---
+
+## Three Case Studies
+
+We'll break up into groups.
+
+1. Who is this visualization designed for?  Self, peer, or other?  Was it
+   successful?
+2. How do you think this data was collected and processed, and how does this
+   reflect the story the visualizer wants to tell?
+3. Where were choices made in representation of the data, and how do these
+   choices influence your perception of it?
+4. Can you think of an alternate presentation?
+
+---
+
+<iframe src="https://player.vimeo.com/video/239582792" width="1024" height="576"
+frameborder="0" webkitallowfullscreen mozallowfullscreen
+allowfullscreen></iframe>
+
+---
+
+<iframe width="1024" height="576"
+src="https://www.youtube.com/embed/D-uBv6jB7r0" frameborder="0"
+allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+---
+
+[`scienceofhiv.org`](https://scienceofhiv.org/)
+
+---
+
 # Data Sources
 
 Divide into groups.  Explore:
@@ -256,66 +287,3 @@ are interested in exploring.  Think about these things:
  * What format is the data in?
  * What is the type of data (rows, columns, connectivity, etc)
  * What story might be hidden?
-
----
-
-# Loading Data
-
-Now, let's learn how we might load in data.  We will learn about several different tools, reasonably quickly:
-
- * Data tools
-   * Iodide
-   * Colaboratory
-   * Jupyter (maybe!)
-   * Observable
- * Visual tools
-   * Iodide
-   * Idyll
-   * HackMD / Reveal
-   * Twine
-
----
-
-# What can we learn about the data?
-
----
-
-# Markdown
-
-Markdown is a "plain-text"
-
- * To **bold**, use `**two asterisks**`
- * You can _italicize_ with `_underscores_`
- * Try out making bullet lists with `*` on each line
- * Links are fun: `[link text](http://example.com/)`
-
----
-
-# Reactive Environments
-
-Discuss: what are the principal differences in how you use and interact with Excel versus Jupyter notebooks?
-
----
-
-# Idyll
-
- * Markdown, compiles to static [ReactJS](https://reactjs.org/)
- * [idyll-lang.org](https://idyll-lang.org/)
- * [idyll.pub](https://idyll.pub)
-
----
-
-# ObservableHQ
-
- * [observablehq.com](https://beta.observablehq.com/)
- * [A Better Way](https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0)
-
---- 
-
-# Lab
-
-Given one of your datasets:
-
- * Explore it in Jupyter or otherwise
- * Develop the structure of a story to highlight features or items of interest
- * Begin implementing in Observable, Idyll, or using Jupyter widgets.
